@@ -1,0 +1,74 @@
+{
+  "__type": "Scene",
+  "data": {
+    "name": "prototype",
+    "gameObjects": [
+      {
+        "name": "player 2",
+        "uuid": "a3c2e6v1-0b3b-4b3b-8b3b-1b3b3b3b3b3b",
+        "tag": "player",
+        "layer": 0,
+        "transform": {
+          "position": {
+            "__type": "Vector2",
+            "data": [
+              44,
+              44
+            ]
+          },
+          "rotation": 0,
+          "scale": {
+            "__type": "Vector2",
+            "data": [
+              1,
+              1
+            ]
+          }
+        },
+        "components": [
+          {
+            "__componentType": "SpriteRenderer",
+            "uuid": "uhrjx5r",
+            "sprite": {
+              "uuid": "f4b1b1e1-0b3b-4b3b-8b3b-1b3b3b3b3b3b",
+              "type": "Sprite"
+            },
+            "color": {
+              "__type": "Color",
+              "data": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "player 2",
+        "uuid": "a1a1a1a1-0b3b-4b3b-8b3b-1a3a1x1x1b3b",
+        "tag": "player",
+        "layer": 0,
+        "transform": {
+          "position": {
+            "__type": "Vector2",
+            "data": [
+              455,
+              555
+            ]
+          },
+          "rotation": 0,
+          "scale": {
+            "__type": "Vector2",
+            "data": [
+              1,
+              1
+            ]
+          }
+        },
+        "components": []
+      }
+    ]
+  }
+}
