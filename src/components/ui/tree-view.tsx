@@ -1,3 +1,6 @@
+import { useMemo } from "react";
+
+import { cva, type VariantProps } from "class-variance-authority";
 import AccessibleTreeView, { flattenTree, ITreeViewProps, NodeId } from "react-accessible-treeview";
 
 type IFlatMetadata = Record<string, string | number | boolean | undefined | null>;
@@ -10,10 +13,7 @@ export type TreeNode<M extends IFlatMetadata> = {
   metadata?: M;
 };
 
-import { cva, type VariantProps } from "class-variance-authority";
-
 import { cn } from "@/lib/utils";
-import { useMemo } from "react";
 
 const treeViewVariants = cva("", {
   variants: {

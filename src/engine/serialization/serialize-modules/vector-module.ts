@@ -1,7 +1,8 @@
-import { Color } from "@/engine/math";
-import { Vector2 } from "../../math/vector2";
-import { Serializer } from "../serializer";
 import { SerializationModule } from "./module-types";
+
+import { Vector2 } from "../../math/vector2";
+
+import { Color } from "@/engine/math";
 
 export const vector2Module: SerializationModule<Vector2> = {
   typeName: "Vector2",

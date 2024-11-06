@@ -1,9 +1,9 @@
+import lodashGet from "lodash/get";
+import lodashSet from "lodash/set";
 import { computed, makeAutoObservable } from "mobx";
 
-import lodashSet from "lodash/set";
-import lodashGet from "lodash/get";
-import { GameObject, Scene } from "@/engine/scene";
 import { Application } from "@/engine";
+import { GameObject, Scene } from "@/engine/scene";
 
 export class SerializableProperty<T = any> {
   private _value: T;

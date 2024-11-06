@@ -1,4 +1,3 @@
-import { Serializer } from "../serializer";
 import { SerializationModule } from "./module-types";
 
 export const dateModule: SerializationModule<Date> = {

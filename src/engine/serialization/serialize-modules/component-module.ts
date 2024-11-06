@@ -1,6 +1,8 @@
-import { Component } from "@/engine/scene";
-import { Serializer } from "../serializer";
 import { SerializationModule } from "./module-types";
+
+import { Serializer } from "../serializer";
+
+import { Component } from "@/engine/scene";
 
 class SpriteRenderer extends Component {}
 

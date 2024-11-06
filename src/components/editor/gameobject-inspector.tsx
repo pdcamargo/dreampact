@@ -1,9 +1,11 @@
-import { GameObject } from "@/engine/scene";
-import { SerializableProperty } from "@/stores/editor.store";
 import { observer } from "mobx-react-lite";
+
 import { Input } from "../ui/input";
-import { Vector2, Vector2Like } from "@/engine/math";
+
+import { Vector2Like } from "@/engine/math";
+import { GameObject } from "@/engine/scene";
 import { cn } from "@/lib/utils";
+import { SerializableProperty } from "@/stores/editor.store";
 
 export type GameObjectInspectorProps = {
   gameObject: SerializableProperty<GameObject>;

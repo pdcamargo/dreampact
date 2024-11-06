@@ -55,6 +55,7 @@
     "mobx": "^6.13.5",
     "mobx-react-lite": "^4.0.7",
     "next-themes": "^0.3.0",
+    "pixi.js": "^8.5.2",
     "react": "19.0.0-rc-603e6108-20241029",
     "react-accessible-treeview": "^2.9.1",
     "react-day-picker": "8.10.1",
@@ -66,6 +67,7 @@
     "sonner": "^1.5.0",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
+    "three": "^0.170.0",
     "vaul": "^1.1.1",
     "zod": "^3.23.8",
     "zustand": "^5.0.1"
@@ -79,6 +81,7 @@
     "@types/node": "^22.8.6",
     "@types/react": "npm:types-react@rc",
     "@types/react-dom": "npm:types-react-dom@rc",
+    "@types/three": "^0.169.0",
     "@typescript-eslint/eslint-plugin": "^8.12.2",
     "@typescript-eslint/parser": "^8.12.2",
     "@vitejs/plugin-react": "^4.2.1",

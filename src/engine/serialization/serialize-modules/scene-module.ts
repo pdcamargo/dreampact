@@ -1,7 +1,9 @@
-import { GameObject, Scene } from "@/engine/scene";
-import { Serializer } from "../serializer";
-import { SerializationModule } from "./module-types";
 import { componentModule } from "./component-module";
+import { SerializationModule } from "./module-types";
+
+import { Serializer } from "../serializer";
+
+import { GameObject, Scene } from "@/engine/scene";
 
 export const gameObjectModule: SerializationModule<GameObject> = {
   typeName: "GameObject",

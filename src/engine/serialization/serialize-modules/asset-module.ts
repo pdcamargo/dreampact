@@ -1,4 +1,3 @@
-import { Serializer } from "../serializer";
 import { SerializationModule } from "./module-types";
 
 // TODO: move to engine

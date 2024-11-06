@@ -1,5 +1,6 @@
-import { Serializer } from "../serializer";
 import { SerializationModule } from "./module-types";
+
+import { Serializer } from "../serializer";
 
 export const setModule: SerializationModule<Set<any>> = {
   typeName: "Set",

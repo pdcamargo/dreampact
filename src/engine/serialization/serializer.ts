@@ -1,7 +1,7 @@
-import { Component } from "../components";
-import { Scene } from "../scene";
 import * as modules from "./serialize-modules";
 import type { SerializationModule } from "./serialize-modules/module-types";
+
+import { Scene, Component } from "../scene";
 
 const prototypesToIgnore = ["Entity"];
 
